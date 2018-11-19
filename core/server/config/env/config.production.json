@@ -1,0 +1,19 @@
+{
+    "url": "http://59.110.213.53",
+    "database": {
+        "client": "sqlite3",
+        "connection": {
+	    "filename": "content/data/ghost-dev.db"
+        }
+    },
+    "paths": {
+        "contentPath": "content/"
+    },
+    "logging": {
+        "level": "info",
+        "rotation": {
+            "enabled": true
+        },
+        "transports": ["file", "stdout"]
+    }
+}
